@@ -1,11 +1,11 @@
 "use client";
-import { SiGithub, SiLinkedin, SiX, SiInstagram } from "react-icons/si";
+import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
 
 const SOCIALS = [
-    { name: "GitHub", href: "https://github.com/Balamanianthio-Dev", icon: <SiGithub /> },
-    { name: "LinkedIn", href: "https://linkedin.com/in/Balamanianthio", icon: <SiLinkedin /> },
-    { name: "X", href: "https://x.com", icon: <SiX /> },
-    { name: "Instagram", href: "https://instagram.com", icon: <SiInstagram /> },
+    { name: "GitHub", href: "https://github.com/Babs132", icon: <Github size={24} /> },
+    { name: "LinkedIn", href: "https://linkedin.com/in/Babs132", icon: <Linkedin size={24} /> },
+    { name: "X", href: "https://x.com", icon: <Twitter size={24} /> },
+    { name: "Instagram", href: "https://instagram.com", icon: <Instagram size={24} /> },
 ];
 
 export default function SocialLinks() {
@@ -17,7 +17,7 @@ export default function SocialLinks() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-slate-400 hover:text-orange-500 transition-colors text-2xl"
+                    className="text-slate-400 hover:text-orange-500 transition-colors"
                 >
                     {link.icon}
                 </a>
