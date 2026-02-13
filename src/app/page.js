@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { fetchInitialArtists } from "../lib/audiodb";
+import { fetchInitialArtists } from "@/lib/audiodb";
 import { Play, Pause, Music2, Disc3, Mic2, Star } from "lucide-react";
 
 export default function HomePage() {
